@@ -1,3 +1,35 @@
 .nav{
-    background-color: red;
+    background-color: #3480F1;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding:  0 30px;
+}
+.nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+.logo{
+    color: #fff;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav li a{
+   text-decoration: none;
+   color: #fff;
+   margin-left: 10px;
+   font-size: 20px;
+   font-weight: bold;
 }
