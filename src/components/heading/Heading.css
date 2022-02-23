@@ -1,0 +1,10 @@
+.heading h2{
+    text-align: center;
+    font-size: 35px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 20px;
+    font-weight: bold;
+    line-height:  1.5;
+    flex-wrap: wrap;
+}

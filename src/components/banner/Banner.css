@@ -1,0 +1,52 @@
+.header-banner{
+    background-color: #1D6FE9;
+    min-height: 370px;
+}
+
+
+.header-banner .container{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+.header-banner h2{
+    font-size: 50px;
+    line-height: 1.2;
+    padding-top: 1em;
+    font-weight: bold;
+}
+
+.header-banner p{
+    font-size: 24px;
+}
+
+.header-banner img{
+    padding-top: 1.5em;
+    max-width: 95%;
+}
+
+.header-banner h4{
+    font-size: 35px;
+}
+
+.header-banner strong{
+    font-size: 45px;
+}
+
+
+@media(max-width: 768px){
+    .header-banner .container{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .header-banner img{
+        max-width: 60%;
+        padding-bottom: 20px;
+    }
+}

@@ -1,11 +1,28 @@
 import React from 'react';
+import Image from '../assets/mweb.svg'
+import './Banner.css'
 
 const Banner = () => {
-    return (
-        <div>
-            <h3>Banner</h3>
+return (
+<div className="header-banner">
+    <div className="container">
+        <div className="big-side__text">
+            <h2>CHECKOUT OUR SERVICES PACKAGES</h2>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi optio, libero sapiente doloremque
+                dolor
+                eveniet ipsam sint hic officia mollitia!
+            </p>
+            <p>
+                <h4>For Only <strong>R450</strong> </h4>
+            </p>
         </div>
-    );
+        <div className="big-side__image">
+            <img src={Image} alt="branding" />
+        </div>
+    </div>
+</div>
+);
 };
 
 export default Banner;

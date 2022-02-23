@@ -1,0 +1,40 @@
+.card-grid .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.block-card__info{
+    flex: 1;
+    background-color: #1D6FE9;
+    color: #fff;
+    padding: 40px 20px;
+    margin: 20px 10px;
+}
+
+.block-card__info h2{
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.block-card__info p{
+    font-size: 18px;
+}
+
+.block-card__info a{
+    display: block;
+    text-decoration: none;
+    margin-top: 20px;
+    color: #fff;
+    background-color: red;
+    min-width: 100%;
+    text-align: center;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+a:hover{
+    background-color: blueviolet;
+}
