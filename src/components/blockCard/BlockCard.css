@@ -6,7 +6,7 @@
 
 
 .block-card__info{
-    flex: 1;
+    flex: 1 1 250px;
     background-color: #1D6FE9;
     color: #fff;
     padding: 40px 20px;
@@ -37,4 +37,13 @@
 
 a:hover{
     background-color: blueviolet;
+}
+
+@media(max-width: 768px){
+    .card-grid .container{
+        flex-wrap: wrap;
+    }
+    .block-card__info{
+        text-align: center;
+    }
 }
