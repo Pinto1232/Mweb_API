@@ -2,13 +2,22 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 200%;
+}
+
+.container{
+    width: 1500px;
+}
+
+.card-grid h3{
+    text-align: center;
 }
 
 
 .block-card__info{
     flex: 1 1 250px;
-    background-color: #1D6FE9;
-    color: #fff;
+    background-color: #fff;
+    color: #3480F1;
     padding: 40px 20px;
     margin: 20px 10px;
 }

@@ -1,10 +1,30 @@
 .heading h2{
     text-align: center;
     font-size: 35px;
-    color: #fff;
-    text-transform: uppercase;
+    color: #3480F1;
+    text-transform: capitalize;
     padding: 20px;
     font-weight: bold;
     line-height:  1.5;
     flex-wrap: wrap;
+}
+
+.heading p{
+    text-align: center;
+    font-weight: bold;
+    font-size:20px;
+    margin-top: -1em;
+    color: #3480F1;
+}
+
+
+.logo-display .container{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1em;
+  align-items: center;
+}
+
+.logo-boxes__items img{
+    max-width: 80%;
 }

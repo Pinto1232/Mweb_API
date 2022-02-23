@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from '../assets/mweb.svg'
+import Image from '../assets/mweb-logo.png'
 import './Banner.css'
 
 const Banner = () => {

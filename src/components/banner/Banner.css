@@ -1,5 +1,5 @@
 .header-banner{
-    background-color: #1D6FE9;
+    background-color: #374ade;
     min-height: 370px;
 }
 
@@ -29,7 +29,10 @@ img{
 
 .header-banner img{
     padding-top: 1.5em;
-    max-width: 95%;
+    justify-content: space-between;
+    max-width: 100%;
+    margin-top: 40px;
+    align-items: center;
 }
 
 .header-banner .text-bold{
