@@ -9,6 +9,14 @@ return (
         <Card className="input-content__items">
             <input type="radio" />
         </Card>
+
+        <Card className="input-content__items">
+            <input type="radio"/>
+        </Card>
+
+        <Card className="input-content__items">
+            <input type="radio" />
+        </Card>
     </div>
 </div>
 );

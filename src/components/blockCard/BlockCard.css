@@ -1,20 +1,14 @@
-.card-grid .containers{
+.card-grid .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 10px 150px;
 }
 
 
-.card-grid h3{
-    text-align: center;
-}
-
-
-.card-grid .block-card__info{
+.block-card__info{
     flex: 1 1 250px;
-    background-color: #fff;
-    color: #3480F1;
+    background-color: #1D6FE9;
+    color: #fff;
     padding: 40px 20px;
     margin: 20px 10px;
 }
@@ -33,7 +27,7 @@
     text-decoration: none;
     margin-top: 20px;
     color: #fff;
-    background-color: #374ade;
+    background-color: red;
     min-width: 100%;
     text-align: center;
     padding: 8px;
@@ -45,37 +39,8 @@ a:hover{
     background-color: blueviolet;
 }
 
-
-.block-card__info .extra-p{
-    color: #000;
-}
-
-.block-card__info .price_logo{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.block-card__info .logo-icon{
-    margin-right: 15em;
-    padding: 0px 20px;
-    margin-top: -24px;
-}
-
-.block-card__info .product-btn__upload{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-}
-
-.product-btn__upload .btn-download{
-    align-items: flex-end;
-    float: right;
-}
-
-
 @media(max-width: 768px){
-    .card-grid .containers{
+    .card-grid .container{
         flex-wrap: wrap;
     }
     .block-card__info{

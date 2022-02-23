@@ -6,7 +6,7 @@ import './BlockCard.css'
 const BlockCard = (props) => {
 return (
 <div className="card-grid">
-    <div className="containers">
+    <div className="container">
         <Block className="block-card__info">
             <h2> card card</h2>
             <p>
