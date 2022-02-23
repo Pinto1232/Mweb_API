@@ -1,6 +1,6 @@
 .header-banner{
     background-color: #374ade;
-    min-height: 570px;
+    min-height: 470px;
 }
 
 
@@ -10,17 +10,7 @@
     color: #fff;
 }
     
-.header-banner::before,
-.header-banner::after {
-    content: '';
-    position: absolute;
-    right: 0;
-    left: 0;
-    background: #fff;
-    height: 100px;
-    bottom: 278px;
-    transform: skewY(-3deg);
-} 
+
 
 
 img{
