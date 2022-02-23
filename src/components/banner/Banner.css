@@ -1,6 +1,6 @@
 .header-banner{
     background-color: #374ade;
-    min-height: 370px;
+    min-height: 470px;
 }
 
 
@@ -8,6 +8,20 @@
     display: flex;
     justify-content: space-between;
     color: #fff;
+}
+    
+.header-banner::before,
+.header-banner::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    left: 0;
+    background: #374ade;
+    height: 100px;
+    bottom: 27em;
+    z-index: 1;
+    transform: skewY(-2.6deg);
+    margin-bottom: 20px;
 }
 
 
