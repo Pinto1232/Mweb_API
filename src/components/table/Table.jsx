@@ -5,19 +5,37 @@ import './Table.css'
 const Table = () => {
 return (
 <div className='main-card-form'>
-    <div className="container">
-        <Card className="input-content__items">
-            <input type="radio" />
-        </Card>
+    <Card className="container">
+        <div className="input-content__items">
+            <label>
+                <input type="radio" name="choice" value="Java" /> Learn JavaScript
+            </label>
+        </div>
 
-        <Card className="input-content__items">
-            <input type="radio"/>
-        </Card>
+        <div className="input-content__items">
+            <label>
+                <input type="radio" name="choice" value="Java" /> Learn JavaScript
+            </label>
+        </div>
 
-        <Card className="input-content__items">
-            <input type="radio" />
-        </Card>
-    </div>
+        <div className="input-content__items">
+            <label>
+                <input type="radio" name="choice" value="Java" /> Learn JavaScript
+            </label>
+        </div>
+
+        <div className="input-content__items">
+            <label>
+                <input type="radio" name="choice" value="Java" /> Learn JavaScript
+            </label>
+        </div>
+
+        <div className="input-content__items">
+            <label>
+                <input type="radio" name="choice" value="Java" /> Learn JavaScript
+            </label>
+        </div>
+    </Card>
 </div>
 );
 };

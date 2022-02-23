@@ -14,7 +14,7 @@
     text-align: center;
     font-weight: bold;
     font-size:20px;
-    margin-top: -1em;
+    margin-top: 1em;
     color: #3480F1;
 }
 
@@ -28,6 +28,8 @@
 
 .logo-boxes__items img{
     max-width: 80%;
+    margin-top: 1px;
+    margin-bottom: 5px;
 }
 
 
