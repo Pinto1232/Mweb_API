@@ -2,9 +2,9 @@ import React from 'react';
 import './Block.css'
 
 const Block = (props) => {
-    const cardblock = 'cardblock ' + props.className; 
+    const classess = 'cardblock ' + props.className; 
     return (
-        <div className={cardblock}>
+        <div className={classess}>
             {props.children}
         </div>
     );

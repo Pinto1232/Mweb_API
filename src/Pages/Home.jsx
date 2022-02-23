@@ -17,7 +17,7 @@ const Home = () => {
             <Banner />
             <Heading />
             <BlockCard />
-            <Table/>
+            <Table />
         </div>
     );
 };

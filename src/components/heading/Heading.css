@@ -28,3 +28,11 @@
 .logo-boxes__items img{
     max-width: 80%;
 }
+
+
+@media(max-width: 768px){
+   .logo-display .logo-boxes__items{
+        max-width: 100%;
+        flex-wrap: wrap;
+    }
+}
