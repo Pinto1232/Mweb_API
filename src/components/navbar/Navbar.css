@@ -11,19 +11,21 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 60px;
+    flex-wrap: wrap;
+    min-height: 60px;
 }
 
 .logo{
     color: #fff;
-    font-size: xx-large;
+    font-size: x-large;
     font-weight: bold;
 }
 
-.nav ul{
+.nav .links{
     display: flex;
     justify-content: space-between;
     list-style: none;
+    
 }
 
 .nav li a{
@@ -32,4 +34,19 @@
    margin-left: 10px;
    font-size: 20px;
    font-weight: bold;
+}
+
+@media(max-width: 768px){
+    .logo{
+        text-align: center;
+        line-height: 1.2;
+        justify-content: space-around;
+    }
+
+    .nav .links{
+        text-align: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding-bottom: 10px;
+    }
 }

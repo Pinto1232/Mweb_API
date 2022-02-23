@@ -1,20 +1,19 @@
 import React from 'react';
+import Card from '../UI/Card';
 import './Navbar.css'
 
-const Navbar = () => {
+const Navbar = (props) => {
     return (
-        <div className="nav">
+        <Card className="nav">
             <div className="container">
                 <div className="logo">Mweb API</div>
                 <ul className="links">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Packages</a></li>
-                    <li><a href="#">Prices</a></li>
-                    <li><a href="#">Portfolio</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
             </div>
-        </div>
+        </Card>
     );
 };
 
