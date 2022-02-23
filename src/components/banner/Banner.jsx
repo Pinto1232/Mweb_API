@@ -13,9 +13,9 @@ return (
                 dolor
                 eveniet ipsam sint hic officia mollitia!
             </p>
-            <p>
-                <h4>For Only <strong>R450</strong> </h4>
-            </p>
+
+            <p className="text-bold">For Only <strong>R450</strong> </p>
+
         </div>
         <div className="big-side__image">
             <img src={Image} alt="branding" />

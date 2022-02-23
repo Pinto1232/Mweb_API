@@ -8,7 +8,7 @@ return (
 <div className="card-grid">
     <div className="container">
         <Block className="block-card__info">
-            <h2><FontAwesomeIcon icon={["fal", "coffee"]} /> card card</h2>
+            <h2> card card</h2>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quo officiis assumenda.
             </p>
