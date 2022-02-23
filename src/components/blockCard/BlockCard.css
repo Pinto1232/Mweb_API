@@ -36,7 +36,7 @@
     text-decoration: none;
     margin-top: 20px;
     color: #fff;
-    background-color: red;
+    background-color: #374ade;
     min-width: 100%;
     text-align: center;
     padding: 8px;
@@ -47,6 +47,12 @@
 a:hover{
     background-color: blueviolet;
 }
+
+
+.block-card__info .extra-p{
+    color: #000;
+}
+
 
 @media(max-width: 768px){
     .card-grid .container{

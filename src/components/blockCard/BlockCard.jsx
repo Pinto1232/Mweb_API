@@ -10,7 +10,7 @@ return (
         <Block className="block-card__info">
             <div className="product-card__display">
             <h2> card card</h2>
-            <p>Unthrottled</p>
+            <p className='extra-p'>Unthrottled</p>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quo officiis assumenda.
             </p>
@@ -21,7 +21,7 @@ return (
            </div>
         </Block>
 
-        
+
 
         <Block className="block-card__info">
             <h2><img src="" alt="" /> div card</h2>
