@@ -4,7 +4,7 @@
     align-items: center;
     flex-wrap: wrap;
     padding: 5em;
-    background-color: #1d6fe9;
+    background-color: #0f143c;
 }
 
 .main-card-form .input-content__items {
@@ -12,7 +12,7 @@
     padding: 1em;
     border: none;
     color: #fff;
-    background-color: #000000ba;
+    background-color: #1d6fe9;
 }
 
 .main-card-form input {
