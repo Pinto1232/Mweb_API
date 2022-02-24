@@ -55,5 +55,9 @@ img{
         max-width: 100%;
         padding-bottom: 20px;
     }
+
+    .header-banner .big-side__text{
+        font-size: 100%;
+    }
   
 }

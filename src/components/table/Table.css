@@ -1,4 +1,4 @@
-.main-card-form .container{
+.main-card-form .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -8,7 +8,7 @@
     background-color: #374ade;
 }
 
-.main-card-form .input-content__items{
+.main-card-form .input-content__items {
     border: 1px solid;
     padding: 1em;
     border: none;
@@ -16,7 +16,22 @@
     background-color: #000000ba;
 }
 
-.main-card-form input{
+.main-card-form input {
     border: none;
     background-color: green;
+}
+
+@media(max-width: 768px) {
+    .main-card-form .container {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .main-card-form .input-content__items {
+         padding: 10px 10px;
+         margin: 2px;
+         text-align: center;
+         flex: 1;
+         flex-basis: auto;
+    }
 }
