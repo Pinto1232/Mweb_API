@@ -50,6 +50,8 @@ background-color: #0f143c;
   padding-bottom: 0px;
   margin-bottom: 0px;
   border: none;
+  padding: 3px;
+  border-radius: 2px;
 }
 
 .menu ul
@@ -80,7 +82,7 @@ background-color: #0f143c;
 
 .menu ul li a:hover
 {
-  background: #1D6FE9;
+  background: #0f143c;
 }
 
 .menu ul li ul
@@ -91,10 +93,11 @@ background-color: #0f143c;
 .menu ul li:hover ul
 {
   display: block;
-  position: absolute;
-  margin-top: 5px;
+ /*  position: absolute; */
+  margin-top: 7.3px;
   background: #1D6FE9;
-  width: 100%;
+  max-width: 100%;
+  text-align: center;
   padding: 10px 2px;
   box-shadow: 0px 20px 100px 0px rgba(0, 0, 0, 0.5);
 }
