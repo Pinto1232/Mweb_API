@@ -1,6 +1,8 @@
 import React, {useState, useEffect} from 'react';
 import { useFetch } from '../hooks/useFetch';
 import './Heading.css';
+import { useQuery } from 'react-query';
+import axios from 'axios';
 
 
 /*This code is to add a header and toke in the URL below if needed */
@@ -13,13 +15,19 @@ import './Heading.css';
 
 
 const Heading = () => {
- const {data: logos, isFetching} = useFetch('media/images/providers')
+ {/*const {data: logos, isFetching} = useFetch('media/images/providers')
   console.log(logos);
+*/}
+
+const {data, isFetching} = useQuery('respo', async() => {
+    const response = await axios.get('https://apigw.mweb.co.za/prod/baas/proxy/marketing/products/promos/FTTH-EVOTEL-CLAWBACK-100MBUP,FTTH-LINKLAYER-CLAWBACK-100MBUP,FTTH-VODA-CLAWBACK-100MBUP,FTTH-TTCONNECT-CLAWBACK-100MBUP,FTTH-CLEARACCESS-CLAWBACK,FTTH-ZOOM-CLAWBACK,FTTH-CCC-CLARA-CLAWBACK,FTTH-OCTOTEL-SETUP-100MBUP,FTTH-CCC-ALT-SETUP-100MBUP,FTTH-CCC-SETUP-100MBUP,FTTH-VUMA-CLAWBACK-100MBUP,FTTH-WEBCONNECT-M2M,FTTH-LINKAFRICA-SETUP-CLAWBACK-100MBUP,FTTH-MFN-SETUP-CLAWBACK-50DEAL,FTTH-FROG-M2M-SETUP-CLAWBACK-100MBUP,FTTH-LIGHTSTRUCK-SETUP-CLAWBACK-100MBUP,FTTH-OPEN-SETUP-CLAWBACK-100MBUP-NEW?sellable_online=true')
+    return response.data
+})
+console.log(data);
   
 
-return (
-    
-<div className="heading">
+return ( 
+  <div className="heading">
     {isFetching && <p>Loading data...</p>}
     <h2>Fibre products</h2>
     <p>
@@ -69,7 +77,7 @@ return (
             </div>
         </div>
     </div>
-</div>
+</div> 
 );
 };
 
