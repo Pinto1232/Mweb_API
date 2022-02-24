@@ -43,7 +43,7 @@ a:hover{
 /* Drop menu */
 .menu
 {
-background-color: #0f143c;
+
   max-width: 40%;
   margin-left: 12px;
   margin-top: 10px;
@@ -73,7 +73,7 @@ background-color: #0f143c;
 
 .menu ul li a
 {
-  color: #fff;
+  color: #000;
   text-decoration: none;
   padding: 5px 10px;
   font-size: 19px;
@@ -83,6 +83,7 @@ background-color: #0f143c;
 .menu ul li a:hover
 {
   background: #0f143c;
+  color: #fff;
 }
 
 .menu ul li ul
@@ -95,11 +96,12 @@ background-color: #0f143c;
   display: block;
  /*  position: absolute; */
   margin-top: 7.3px;
-  background: #1D6FE9;
+  background-color: #1d6fe9;
   max-width: 100%;
   text-align: center;
   padding: 10px 2px;
   box-shadow: 0px 20px 100px 0px rgba(0, 0, 0, 0.5);
+  color: #fff;
 }
 
 

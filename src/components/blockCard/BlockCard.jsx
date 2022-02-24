@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Block from '../UI-Cards/Block'
+import Card from '../UI/Card'
 import React from 'react';
 import './BlockCard.css'
 import PriceHeading from '../headingPrice/PriceHeading';
@@ -8,7 +9,7 @@ const BlockCard = (props) => {
 return (
 <div className="card-grid">
 <div className="container">
-           <div className="menu">
+           <Card className="menu">
                 <ul>
                     <li>
                         <a href="#">Filter By:</a>
@@ -17,7 +18,7 @@ return (
                         </ul>
                     </li>
                 </ul>
-            </div>
+            </Card>
            </div>
     <div className="container">
         <Block className="block-card__info">
