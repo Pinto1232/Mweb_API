@@ -4,4 +4,19 @@
     align-items: center;
     flex-wrap: wrap;
     margin-top: 5em;
+    padding: 5em;
+    background-color: #374ade;
+}
+
+.main-card-form .input-content__items{
+    border: 1px solid;
+    padding: 1em;
+    border: none;
+    color: #fff;
+    background-color: #000000ba;
+}
+
+.main-card-form input{
+    border: none;
+    background-color: green;
 }

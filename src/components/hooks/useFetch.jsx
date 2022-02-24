@@ -2,9 +2,12 @@ import axios, { AxiosRequestConfig } from "axios";
 import { useEffect, useState } from "react";
 
 
+
 const api = axios.create({
-    baseURL: 'https://www.mweb.co.za'
+    baseURL: 'https://apigw.mweb.co.za',
+    timeout: 20000
 })
+
 
 /* 
    Note: The AxiosRequestConfig will allow me to added header of token in the get request I am working on 
@@ -23,7 +26,7 @@ export function useFetch(url){
         api.get(url)
            .then(response => {
                console.log(response);
-               setData(response.data)
+               setData(response.data.json())
            })
            .catch(err => {
                setError(err)

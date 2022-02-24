@@ -10,7 +10,7 @@
     background-color: #1D6FE9;
     color: #fff;
     padding: 40px 20px;
-    margin: 20px 10px;
+    margin: 10px 10px;
 }
 
 .block-card__info h2{
@@ -39,11 +39,76 @@ a:hover{
     background-color: blueviolet;
 }
 
+
+/* Drop menu */
+.menu
+{
+background-color: #3480F1;
+  max-width: 40%;
+  margin-left: 12px;
+  margin-top: 10px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  border: none;
+}
+
+.menu ul
+{
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.menu ul li
+{
+  list-style: none;
+  padding: 4px;
+  position: relative;
+  transition: 0.5s;
+  display: block;
+}
+
+.menu ul li a
+{
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  font-weight: bold;
+  font-weight: 18px;
+}
+
+.menu ul li a:hover
+{
+  background: #1D6FE9;
+}
+
+.menu ul li ul
+{
+  display: none;
+}
+
+.menu ul li:hover ul
+{
+  display: block;
+  position: absolute;
+  margin-top: 5px;
+  background: #1D6FE9;
+  width: 100%;
+  padding: 10px 2px;
+  box-shadow: 0px 20px 100px 0px rgba(0, 0, 0, 0.5);
+}
+
+
 @media(max-width: 768px){
     .card-grid .container{
         flex-wrap: wrap;
     }
     .block-card__info{
         text-align: center;
+    }
+    .menu  li {
+        text-align: center;
+        flex-wrap: wrap;
     }
 }
