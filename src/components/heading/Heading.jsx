@@ -3,15 +3,24 @@ import { useFetch } from '../hooks/useFetch';
 import './Heading.css';
 
 
+/*This code is to add a header and toke in the URL below if needed */
+/*,{ 
+    headers: {
+        Authorization: 'Bearer ' + token
+       'Content-Type': 'application/json'
+}*/
+     
 
 
 const Heading = () => {
- const {data} = useFetch('https://apigw.mweb.co.za/prod/baas/proxy/marketing/campaigns/fibre?channels=120&visibility=public')
-  console.log(data);
+ const {data: logos, isFetching} = useFetch('media/images/providers')
+  console.log(logos);
   
 
 return (
+    
 <div className="heading">
+    {isFetching && <p>Loading data...</p>}
     <h2>Fibre products</h2>
     <p>
         Select a Fribre infrastructure provider below, browse the products available

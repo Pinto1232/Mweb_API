@@ -1,18 +1,37 @@
-import axios from "axios";
+import axios, { AxiosRequestConfig } from "axios";
 import { useEffect, useState } from "react";
 
 
+const api = axios.create({
+    baseURL: 'https://www.mweb.co.za'
+})
+
+/* 
+   Note: The AxiosRequestConfig will allow me to added header of token in the get request I am working on 
+   this code goes int useFetch as parameters (, options?: AxiosRequestConfig)
+*/
 export function useFetch(url){
     const [data, setData] = useState(null)
-
-
+    const [isFetching, setIsFetching] = useState(true)
+    const [error, setError] = useState(null)
 
     useEffect(() => {
-        axios.get(url)
+        /* 
+           Without base URL I need to use the word axios where a put the word api below
+           This code goes in the get method as parameters (, options)
+        */
+        api.get(url)
            .then(response => {
                console.log(response);
                setData(response.data)
            })
+           .catch(err => {
+               setError(err)
+           })
+           .finally(() => {
+                setIsFetching(false)
+           })
+
        }, [])
-return {data}
+return {data, error, isFetching }
 }
