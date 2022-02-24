@@ -1,23 +1,14 @@
 import React, {useState, useEffect} from 'react';
+import { useFetch } from '../hooks/useFetch';
 import './Heading.css';
 
 
 
+
 const Heading = () => {
-/* fetch('https://www.mweb.co.za/media/images/providers')
-.then((res) => res.json())
-.then(console.log); */
-
-const [icons, setIcons] = useState([])
-const [loading, setLoading] = useState(true)
-
-
-useEffect(() => {
-    fetch("https://www.mweb.co.za/media/images/providers")
-    .then(res => res.json()).then(data => setIcons(data))
-    console.log(icons);
-    
-}, [])
+ const {data} = useFetch('https://apigw.mweb.co.za/prod/baas/proxy/marketing/campaigns/fibre?channels=120&visibility=public')
+  console.log(data);
+  
 
 return (
 <div className="heading">
