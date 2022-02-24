@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Block from '../UI-Cards/Block'
 import React from 'react';
 import './BlockCard.css'
+import PriceHeading from '../headingPrice/PriceHeading';
 
 const BlockCard = (props) => {
 return (
@@ -43,6 +44,7 @@ return (
             <a href="#">Read more</a>
         </Block>
         </div>
+        <PriceHeading />
 </div>
 );
 };

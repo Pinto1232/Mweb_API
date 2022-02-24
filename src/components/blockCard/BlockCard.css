@@ -25,9 +25,9 @@
 .block-card__info a{
     display: block;
     text-decoration: none;
-    margin-top: 20px;
+    margin-top: 2px;
     color: #fff;
-    background-color: red;
+    background-color: #0f143c;
     min-width: 100%;
     text-align: center;
     padding: 8px;
@@ -36,14 +36,14 @@
 }
 
 a:hover{
-    background-color: blueviolet;
+    background-color: red;
 }
 
 
 /* Drop menu */
 .menu
 {
-background-color: #3480F1;
+background-color: #0f143c;
   max-width: 40%;
   margin-left: 12px;
   margin-top: 10px;
@@ -74,7 +74,7 @@ background-color: #3480F1;
   color: #fff;
   text-decoration: none;
   padding: 5px 10px;
-  font-size: 22px;
+  font-size: 19px;
   font-weight: bold;
 }
 

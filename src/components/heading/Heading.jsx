@@ -29,7 +29,7 @@
         */
         return (
         <div className="heading">
-            {isFetching && <p>Loading data...</p>}
+            {isFetching && <p className='load'>Loading data...</p>}
             <h2>Fibre products</h2>
             <p>
                 Select a Fribre infrastructure provider below, browse the products available
