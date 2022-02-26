@@ -40,9 +40,8 @@ const ProductList = () => {
                         {product.map((prod) => {
                             return (
                                 <li key={prod.id}>
-                                        {isLoading && <p>Loading...</p>}
                                         <p><strong>Products</strong>: {prod.description}</p>
-                                        {!isLoading && product.length === 0 && <p>Found no product</p>}
+                                        
                                 </li>
                                 ) 
                             })} 

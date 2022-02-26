@@ -47,13 +47,18 @@ img{
 
 
 @media(max-width: 768px){
+    .header-banner h2 {
+        font-size: 150%;
+    }
+
     .header-banner .container{
         flex-wrap: wrap;
         text-align: center;
     }
-    .header-banner img{
-        max-width: 100%;
+    .header-banner img:nth-of-type(1){
         padding-bottom: 20px;
+        margin-top: -1em;
+        order: 1;
     }
 
     .header-banner .big-side__text{

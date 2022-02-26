@@ -18,6 +18,10 @@ const BlockCard = (props) => {
                 console.log(data);
         })
     }
+
+    const loadMoreHandler = (event) => {
+             event.preventDefault()
+    }
         
     return (
         <div className="card-grid">
@@ -57,6 +61,9 @@ const BlockCard = (props) => {
                     </p>
                     <a href="#">Read more</a>
                 </Block>
+                </div>
+                <div className="container more-to">
+                     <a href="#" className='load-more__btn'  onClick={loadMoreHandler}>Load more</a>
                 </div>
                 <PriceHeading />
         </div>

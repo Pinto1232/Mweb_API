@@ -39,12 +39,11 @@
 
 @media(max-width: 768px){
     .nav .container{
-        flex-wrap: wrap;
+        flex-direction: column;
     }
     .nav .logo{
         text-align: center;
         line-height: 1.2;
-        margin-left: 6em;
         font-size: 100%;
     }
 
