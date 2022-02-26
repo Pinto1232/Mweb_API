@@ -19,10 +19,8 @@ const BlockCard = (props) => {
         })
     }
 
-    const loadMoreHandler = (event) => {
-             event.preventDefault()
-    }
-        
+
+    
     return (
         <div className="card-grid">
            <div className="container">
@@ -35,35 +33,44 @@ const BlockCard = (props) => {
                                 </ul>
                             </li>
                         </ul>
-                    </Card>
+                   </Card>
                 </div>
             <div className="container">
                 <Block className="block-card__info">
-                    <h2> card card</h2>
+                    <h2>Fibre title</h2>
+                    <p>Unthrottled</p>
+                    <p>Package</p>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quo officiis assumenda.
+                        Description of the package
                     </p>
-                    <a href="#">Read more</a>
+                    <h3>Price</h3>
+                    <img src="#" alt="logo" />
+                    <a href="#">Check coverage</a>
                 </Block>
 
                 <Block className="block-card__info">
-                    <h2><img src="" alt="" /> div card</h2>
+                    <h2><img src="" alt="" />Fibre title</h2>
+                    <p>Unthrottled</p>
+                    <p>Package</p>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quo officiis assumenda.
+                       Description of the package
                     </p>
-                    <a href="#">Read more</a>
+                    <h3>Price</h3>
+                    <img src="#" alt="logo" />
+                    <a href="#">Check coverage</a>
                 </Block>
 
                 <Block className="block-card__info">
-                    <h2><img src="" alt="" /> div card</h2>
+                    <h2><img src="" alt="" />Fibre title</h2>
+                    <p>Unthrottled</p>
+                    <p>Package</p>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quo officiis assumenda.
+                         Description of the package
                     </p>
-                    <a href="#">Read more</a>
+                    <h3>Price</h3>
+                    <img src="#" alt="logo" />
+                    <a href="#">Check coverage</a>
                 </Block>
-                </div>
-                <div className="container more-to">
-                     <a href="#" className='load-more__btn'  onClick={loadMoreHandler}>Load more</a>
                 </div>
                 <PriceHeading />
         </div>

@@ -64,7 +64,7 @@ return (
     <ProductCard className="prod-card">
         <div className="container-product">
             {data.map((item, index) => (
-              <div key={index}>
+            <div key={index}>
                 {/*<p>Promo code - {item.promoCode}</p>
                 <p>Promo Description - {item.promoCodeDescription}</p> */}
 
@@ -73,10 +73,14 @@ return (
                     <Product product={item2} />
                 </div>
                 ))}
-              </div>
+            </div>
             ))}
         </div>
+        <div className="container more-to">
+            <a href="#" className='load-more__btn'>Load more</a>
+        </div>
     </ProductCard>
+
 </div>
 );
 };
