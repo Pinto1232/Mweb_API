@@ -8,17 +8,31 @@ import ProductList from '../components/product/ProductList';
 import Table from '../components/table/Table';
 
 
-const Home = () => {
+const Home = (props) => {
     return (
-        <div>
-            <Navbar />
-            <Banner />
-            <Heading />
-            <ProductList />
-            <BlockCard />
-            <Table />
-            <Footer />
-        </div>
+        <React.Fragment>
+           <section>
+              <Navbar />
+           </section>
+            <section>
+               <Banner />
+            </section>
+            <section>
+               <Heading />
+            </section>
+            <section>
+               <ProductList />
+            </section>
+            <section>
+               <BlockCard />
+            </section>
+            <section>
+               <Table />
+            </section>
+            <section>
+             <Footer />
+            </section>
+        </React.Fragment>
     );
 };
 

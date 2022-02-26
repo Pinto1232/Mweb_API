@@ -14,7 +14,7 @@ const BlockCard = (props) => {
             .then(response => {
                 return response.json()
             }).then(data => {
-                setPrice(data.products);
+                setPrice(data);
                 console.log(data);
         })
     }

@@ -32,7 +32,15 @@
     margin-left: 35%;
     margin-bottom: 1em;
     padding: 5px;
+}
 
+.container-product ul li{
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+    text-align: start;
+    align-items: flex-start;
+    flex-direction: column;
 }
 
 @media(max-width: 768px){
