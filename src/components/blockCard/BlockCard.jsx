@@ -27,9 +27,11 @@ const BlockCard = (props) => {
                 <Card className="menu">
                         <ul>
                             <li>
-                                <a href="#">Filter By:</a>
+                                <a className='main-mentioned' href="#">Filter By Price:</a>
                                 <ul>
-                                    <li><a href="#" onClick={fetchPriceHandler}>Price</a></li>
+                                    <li><a className='mentioned' href="#" onClick={fetchPriceHandler}>R0 - R699</a></li>
+                                    <li><a className='mentioned' href="#" onClick={fetchPriceHandler}>R700 - R999</a></li>
+                                    <li><a className='mentioned' href="#" onClick={fetchPriceHandler}>1000+</a></li>
                                 </ul>
                             </li>
                         </ul>

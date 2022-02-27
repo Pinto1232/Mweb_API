@@ -89,21 +89,37 @@ a:hover{
   position: relative;
   transition: 0.5s;
   display: block;
+  background-color: #0f143c;
 }
+
+
 
 .menu ul li a
 {
-  color: #000;
+  color: #fff;
   text-decoration: none;
   padding: 5px 10px;
   font-size: 19px;
   font-weight: bold;
 }
 
-.menu ul li a:hover
+.main-mentioned:hover{
+  background-color: #0f143c;
+  transition: 1s ease;
+}
+
+
+.menu .mentioned:hover
 {
-  background: #0f143c;
+  background: red;
   color: #fff;
+  padding-left: 1em;
+  padding-right: 1em;
+  max-width: 70%;
+  font-size: 15px;
+  margin-bottom: 1px;
+  transition: 1s ease;
+  cursor: pointer;
 }
 
 .menu ul li ul
@@ -116,10 +132,10 @@ a:hover{
   display: block;
  /*  position: absolute; */
   margin-top: 7.3px;
-  background-color: #1d6fe9;
+  background-color: #fff;
   max-width: 100%;
   text-align: center;
-  padding: 10px 2px;
+  padding: 1.4px 1px;
   box-shadow: 0px 20px 100px 0px rgba(0, 0, 0, 0.5);
   color: #fff;
 }
