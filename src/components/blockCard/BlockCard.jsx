@@ -1,4 +1,3 @@
-import Block from '../UI-Cards/Block'
 import Card from '../UI/Card'
 import React, {
     useEffect,
@@ -25,9 +24,6 @@ const BlockCard = (props) => {
     };
     useEffect(() => fetchData(), []);
     console.log('Price data', data);
-
-
- 
 
     return (
         <div className="card-grid">

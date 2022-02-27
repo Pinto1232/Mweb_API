@@ -50,9 +50,10 @@ return (
         <div className="container-product">
             {data.slice(0, limit).map((item, index) => (
             <div key={index}>
-                {/*<p>Promo code - {item.promoCode}</p>
+                {
+                  /*<p>Promo code - {item.promoCode}</p>
                   <p>Promo Description - {item.promoCodeDescription}</p> 
-                  */}
+                */}
 
                 {item.products.map((item2, index2) => (
                 <div key={index2}>
