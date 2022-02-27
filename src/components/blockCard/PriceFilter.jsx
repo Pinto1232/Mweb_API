@@ -26,7 +26,7 @@ return (
 					</div>
 
 					<div className="itemss">
-						<img src="https://www.mweb.co.za/media/images/providers/provider-lightstruck.png" alt="icon" />
+						<img className='company-logo' src="https://www.mweb.co.za/media/images/providers/provider-lightstruck.png" alt="icon" />
 					</div>
 				</div>
 

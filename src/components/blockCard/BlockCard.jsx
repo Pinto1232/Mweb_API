@@ -25,6 +25,8 @@ const BlockCard = (props) => {
     useEffect(() => fetchData(), []);
     console.log('Price data', data);
 
+    
+
     return (
         <div className="card-grid">
         <div className="container">
@@ -42,7 +44,7 @@ const BlockCard = (props) => {
                 </ul>
             </Card>
         </div>
-        
+
         <div className='containeir-price'>
             {data.slice(0, limit).map((item, index) =>(
             <div key={index}>
