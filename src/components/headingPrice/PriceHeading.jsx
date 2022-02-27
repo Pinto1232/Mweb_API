@@ -4,7 +4,14 @@ import './PriceHeading.css'
 const PriceHeading = () => {
     return (
         <div className='container cont-help'>
-            <h2>Price Ranges</h2>
+            <h2 
+                style={
+                    {textTransform: 'capitalize', 
+                     fontSize: '35px',
+                      fontWeight: 'bold'}
+                      }>
+                          Price Ranges
+                </h2>
         </div>
     );
 };

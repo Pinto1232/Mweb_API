@@ -8,7 +8,7 @@ return (
  
         <div className="table-container">
             <div className="table-row heading">
-                <h2 className="row-item"><strong>Fibre products Name</strong></h2>
+                <h4 className="row-item"><strong>Fibre products Name</strong></h4>
             </div>
             <div className="table-row">
                 <div className="row-item">{product.productName}</div>

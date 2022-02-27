@@ -1,5 +1,4 @@
 import React from 'react';
-import PriceHeading from '../headingPrice/PriceHeading';
 import Card from '../UI/Card';
 import './Table.css'
 
