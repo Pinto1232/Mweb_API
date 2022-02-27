@@ -5,6 +5,8 @@ import App from './App'
 import {QueryClientProvider} from 'react-query'
 import { queryClient } from './components/services/queryClient'
 
+
+
 ReactDOM.render(
   <React.StrictMode>
     <QueryClientProvider client={queryClient}> 

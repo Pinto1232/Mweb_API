@@ -28,7 +28,6 @@ const ProductList = () => {
 
 
     useEffect(() => fetchData(), []);
-
     console.log("On Click", data);
 
 
@@ -36,8 +35,6 @@ const ProductList = () => {
         event.preventDefault()
        setLimit(prevValue => prevValue + 3)
     }
-
-
 
 
 return (
@@ -54,7 +51,8 @@ return (
             {data.slice(0, limit).map((item, index) => (
             <div key={index}>
                 {/*<p>Promo code - {item.promoCode}</p>
-                <p>Promo Description - {item.promoCodeDescription}</p> */}
+                  <p>Promo Description - {item.promoCodeDescription}</p> 
+                  */}
 
                 {item.products.map((item2, index2) => (
                 <div key={index2}>

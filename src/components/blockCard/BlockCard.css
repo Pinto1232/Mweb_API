@@ -1,37 +1,28 @@
-.card-holder .container {
+.container-content__card {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 100%;
-  padding: 1em;
-  flex-wrap: wrap;
 }
 
-.card-holder .containers {
+.container-content__card .card-two__one {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border: 1px solid #fff;
-}
-
-.card-holder .card-two {
   background-color: #1d6fe9;
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: #fff;
-  padding: 3em;
-  flex: 1 1 0px;
-  margin: 1px;
+  padding: 2em;
+  flex: 1;
+  margin:14px;
 }
 
-.cards-items .items{
+.cards-itemss .itemss{
   display:inline-block;
   justify-content: space-between;
   align-items: center;
   flex:  1 1 0px;
 }
-.items {
+.itemss {
   margin-right: 2em;
 }
 
@@ -58,6 +49,14 @@
   padding-right: 2em;
   background-color: #e7040f;
   color: #fff;
+}
+.card-icons .icons-download{
+  margin-bottom:  1em;
+}
+
+
+.cards-itemss h4{
+  font-size: x-large;
 }
 
 
@@ -95,9 +94,9 @@ a:hover {
 
   max-width: 159px;
   margin-left: 12px;
-  margin-top: 10px;
+  margin-top: 30px;
   padding-bottom: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 30px;
   border: none;
   padding: 3px;
   border-radius: 2px;
@@ -128,6 +127,8 @@ a:hover {
   font-size: 19px;
   font-weight: bold;
 }
+
+
 
 .main-mentioned:hover {
   background-color: #0f143c;

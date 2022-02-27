@@ -1,6 +1,8 @@
+import { faArrowDown, faArrowUp } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react'
 import Block from '../UI-Cards/Block';
-import './BlockCard.css'
+
 
 
 export default function PriceFilter(props) {
@@ -11,31 +13,29 @@ price
 
 
 return (
-<div className='card-holder'>
-	<div className="containers">
-		<Block className="container">
-			<div className="card-two">
-				<div className="cards-items">
+		<Block  className="container container-content__card">
+			<div className="card-two__one">
+				<div className="cards-itemss">
 					<h4>Title</h4>
 					<p>Unthrottled</p>
 
-					<div className="items">
+					<div className="itemss">
 						<p>R2030</p>
 					</div>
 
-					<div className="items">
+					<div className="itemss">
 						<img src="" alt="icon" />
 					</div>
 				</div>
 
-				<div className="cards-items">
+				<div className="cards-itemss">
 					<div className="card-icons">
 					     <div className="icons-download">
-							 <img src="#" alt="icon" />
+							 <span><FontAwesomeIcon icon={faArrowDown} /></span>
 						    <p>Download</p>
 						 </div>
 						 <div className="icons-download">
-							 <img src="#" alt="icon" />
+							 <span><FontAwesomeIcon icon={faArrowUp} /></span>
 						    <p>Upload</p>
 						 </div>
 					</div>
@@ -45,59 +45,28 @@ return (
 				</div>
 			</div>
 
-			<div className="card-two">
-				<div className="cards-items">
+			<div className="card-two__one">
+				<div className="cards-itemss">
 					<h4>Title</h4>
 					<p>Unthrottled</p>
 
-					<div className="items">
+					<div className="itemss">
 						<p>R2030</p>
 					</div>
 
-					<div className="items">
+					<div className="itemss">
 						<img src="" alt="icon" />
 					</div>
 				</div>
 
-				<div className="cards-items">
+				<div className="cards-itemss">
 					<div className="card-icons">
 					     <div className="icons-download">
-							 <img src="#" alt="icon" />
+							 <span><FontAwesomeIcon icon={faArrowDown} /></span>
 						    <p>Download</p>
 						 </div>
 						 <div className="icons-download">
-							 <img src="#" alt="icon" />
-						    <p>Upload</p>
-						 </div>
-					</div>
-					<div className="card-icons">
-					     <a href="#">Check coverage</a>
-					</div>
-				</div>
-			</div>
-
-			<div className="card-two">
-				<div className="cards-items">
-					<h4>Title</h4>
-					<p>Unthrottled</p>
-
-					<div className="items">
-						<p>R2030</p>
-					</div>
-
-					<div className="items">
-						<img src="" alt="icon" />
-					</div>
-				</div>
-
-				<div className="cards-items">
-					<div className="card-icons">
-					     <div className="icons-download">
-							 <img src="#" alt="icon" />
-						    <p>Download</p>
-						 </div>
-						 <div className="icons-download">
-							 <img src="#" alt="icon" />
+							 <span><FontAwesomeIcon icon={faArrowUp} /></span>
 						    <p>Upload</p>
 						 </div>
 					</div>
@@ -107,7 +76,5 @@ return (
 				</div>
 			</div>
 		</Block>
-	</div>
-</div>
 );
 }
