@@ -1,11 +1,16 @@
-.container-content__card {
+.container .containeir-price {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 100%;
+  flex: 1;
+}
+
+.container-content__card {
+  border-radius: 0px !important;
 }
 
 .container-content__card .card-two__one {
-  display: flex;
   background-color: #1d6fe9;
   display: flex;
   justify-content: space-between;
@@ -13,25 +18,26 @@
   color: #fff;
   padding: 2em;
   flex: 1;
-  margin:14px;
+  margin: 14px;
 }
 
-.cards-itemss .itemss{
-  display:inline-block;
+.cards-itemss .itemss {
+  display: inline-block;
   justify-content: space-between;
   align-items: center;
-  flex:  1 1 0px;
+  flex: 1 1 0px;
 }
+
 .itemss {
   margin-right: 2em;
 }
 
-.card-icons .icons-download{
+.card-icons .icons-download {
   display: inline-block;
-  margin-right:  2em;
+  margin-right: 2em;
 }
 
-.card-icons a{
+.card-icons a {
   text-decoration: none;
   border: none;
   padding: 3%;
@@ -41,7 +47,7 @@
   color: #fff;
 }
 
-.card-icons a:hover{
+.card-icons a:hover {
   text-decoration: none;
   border: none;
   padding: 3%;
@@ -50,12 +56,13 @@
   background-color: #e7040f;
   color: #fff;
 }
-.card-icons .icons-download{
-  margin-bottom:  1em;
+
+.card-icons .icons-download {
+  margin-bottom: 1em;
 }
 
 
-.cards-itemss h4{
+.cards-itemss h4 {
   font-size: x-large;
 }
 
@@ -118,6 +125,17 @@ a:hover {
   background-color: #0f143c;
 }
 
+.btn-download {
+  background: #c5c5c5;
+  padding: 3px;
+  padding-left: 2em;
+  padding-right: 2em;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 7px;
+}
+
 
 
 .menu ul li a {
@@ -166,9 +184,10 @@ a:hover {
 
 
 @media(max-width: 768px) {
-  .card-holder .container{
+  .card-holder .container {
     flex-direction: column;
   }
+
   .card-grid .container {
     flex-wrap: wrap;
   }
@@ -184,5 +203,25 @@ a:hover {
   .menu li {
     text-align: center;
     flex-wrap: wrap;
+  }
+
+  .container-content__card .card-two__one {
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+  
+  .card-icons a{
+    padding: 12px;
+  }
+}
+
+@media(max-width: 435px){
+  .container-content__card .card-two__one {
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: start;
   }
 }

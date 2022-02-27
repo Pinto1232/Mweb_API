@@ -41,8 +41,8 @@ const BlockCard = (props) => {
                     </li>
                 </ul>
             </Card>
-
         </div>
+        
         <div className='containeir-price'>
             {data.slice(0, limit).map((item, index) =>(
             <div key={index}>
@@ -53,8 +53,6 @@ const BlockCard = (props) => {
                 ))}
             </div>
             ))}  
-
-           
         </div>
      </div>
     );
