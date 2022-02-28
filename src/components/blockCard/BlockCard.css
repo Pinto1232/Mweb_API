@@ -223,6 +223,13 @@ a:hover {
     flex-wrap: wrap;
   }
 
+  .menu ul li {
+    padding-right: 11.1em;
+    text-align: center;
+    align-items: center;
+    display: inline-flex;
+  }
+
   .container-content__card .card-two__one {
     display: block;
     flex-wrap: wrap;
