@@ -233,6 +233,10 @@ a:hover {
 
   .card-icons a {
     padding: 12px;
+    display: block;
+  }
+  .btn-download {
+    display: block;
   }
 }
 
@@ -242,5 +246,8 @@ a:hover {
     flex-wrap: wrap;
     justify-content: space-evenly;
     text-align: start;
+  }
+  .card-icons a {
+    display: block;
   }
 }

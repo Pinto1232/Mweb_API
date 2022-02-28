@@ -83,8 +83,8 @@ const BlockCard = (props) => {
                 nextLabel={'next'}
                 breakLabel={'...'}
                 pageCount={25}
-                marginPagesDisplayed={7}
-                pageRangeDisplayed={4}
+                marginPagesDisplayed={3}
+                pageRangeDisplayed={5}
                 onPageChange={handlePageClick}
                 containerClassName={'pagination'}
                 pageClassName={'page-item'}

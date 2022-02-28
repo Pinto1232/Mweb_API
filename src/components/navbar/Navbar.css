@@ -1,63 +1,68 @@
-.nav{
-    background-color: #3480F1;
-    position: sticky;
+.nav {
+  background-color: #3480f1;
+  position: sticky;
 }
 
 .container {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding:  0 30px;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 30px;
 }
-.nav .container{
+.nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 60px;
+}
+
+.logo {
+  color: #fff;
+  font-size: xx-large;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.nav .links {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.nav li a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  .nav .container {
+    flex-direction: column;
+  }
+  .nav .logo {
+    text-align: center;
+    line-height: 1.2;
+    font-size: 157%;
+    margin-top: 6px;
+  }
+
+  .nav .links {
     display: flex;
-    justify-content: space-between;
+
     align-items: center;
-    min-height: 60px;
-}
-
-.logo{
-    color: #fff;
-    font-size: xx-large;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-.nav .links{
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-}
-
-.nav li a{
-   text-decoration: none;
-   color: #fff;
-   margin-left: 10px;
-   font-size: 20px;
-   font-weight: bold;
-   text-transform: uppercase;
-}
-
-@media(max-width: 768px){
-    .nav .container{
-        flex-direction: column;
-    }
-    .nav .logo{
-        text-align: center;
-        line-height: 1.2;
-        font-size: 100%;
-    }
-
-    .nav .links{
-        display: flex;
-       
-        align-items: center;
-        padding-bottom: 1px;
-        font-size: 100%;
-    }
-    .nav li a{
-        font-size: 100%;
-        text-align: center;
-        align-items: center;
-        flex-direction: column;
-    }
+    padding-bottom: 1px;
+    font-size: 100%;
+  }
+  .nav li a {
+    font-size: 100%;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2px;
+  }
+  .nav .container {
+    min-height: 70px;
+  }
 }
