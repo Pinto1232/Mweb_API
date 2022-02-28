@@ -7,6 +7,7 @@ import { queryClient } from './components/services/queryClient'
 
 
 
+
 ReactDOM.render(
   <React.StrictMode>
     <QueryClientProvider client={queryClient}> 

@@ -61,15 +61,9 @@
   margin-bottom: 1em;
 }
 
-
 .cards-itemss h4 {
   font-size: x-large;
 }
-
-
-
-
-
 
 a:hover {
   background-color: red;
@@ -95,10 +89,8 @@ a:hover {
   background-color: red;
 }
 
-
 /* Drop menu */
 .menu {
-
   max-width: 159px;
   margin-left: 12px;
   margin-top: 30px;
@@ -136,8 +128,6 @@ a:hover {
   margin-bottom: 7px;
 }
 
-
-
 .menu ul li a {
   color: #fff;
   text-decoration: none;
@@ -146,13 +136,10 @@ a:hover {
   font-weight: bold;
 }
 
-
-
 .main-mentioned:hover {
   background-color: #0f143c;
   transition: 1s ease;
 }
-
 
 .menu .mentioned:hover {
   background: red;
@@ -182,8 +169,29 @@ a:hover {
   color: #fff;
 }
 
+/* Pagination */
+.container .pagination {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #0f143c;
+  color: #fff;
+}
 
-@media(max-width: 768px) {
+.pagination .page-item {
+  padding: 12px;
+  cursor: pointer;
+}
+
+.card-helper__pagination {
+  background-color: #0f143c;
+  padding: 0px;
+  margin: 0px;
+}
+
+@media (max-width: 768px) {
   .card-holder .container {
     flex-direction: column;
   }
@@ -210,14 +218,15 @@ a:hover {
     flex-wrap: wrap;
     justify-content: space-evenly;
     text-align: center;
+    background-color: ;
   }
-  
-  .card-icons a{
+
+  .card-icons a {
     padding: 12px;
   }
 }
 
-@media(max-width: 435px){
+@media (max-width: 435px) {
   .container-content__card .card-two__one {
     display: block;
     flex-wrap: wrap;
