@@ -3,6 +3,9 @@ import Image from '../assets/mweb-logo.png'
 import './Banner.css'
 
 const Banner = () => {
+
+
+    
 return (
 <div className="header-banner">
     <div className="container">
