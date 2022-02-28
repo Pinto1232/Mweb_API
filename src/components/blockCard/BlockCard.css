@@ -185,6 +185,16 @@ a:hover {
   cursor: pointer;
 }
 
+.pagination .page-item:hover {
+  background-color: #1d6fe9;
+  transition: all 1s ease-in;
+}
+
+.page-link:hover {
+  background-color: #1d6fe9;
+  transition: all 1s ease-in;
+}
+
 .card-helper__pagination {
   background-color: #0f143c;
   padding: 0px;
