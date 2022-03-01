@@ -27,7 +27,7 @@ const BlockCard = (props) => {
                 setData(getData);
             });
     };
-    useEffect(() => fetchData(), []);
+    useEffect(() => fetchData(null), []);
     console.log('Price data', data);
 
 
