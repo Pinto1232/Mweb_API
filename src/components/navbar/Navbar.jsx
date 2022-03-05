@@ -13,10 +13,10 @@ const Navbar = (props) => {
             <div className="container">
                 <div className="logo">Mweb API</div>
                 <ul className="links">
-                    <li><Link to="/Home/*">Home</Link></li>
-                    <li><Link to="/packages">Packages</Link></li>
-                    <li><Link to="/contact">Contact</Link></li> 
-                    <li><Link to="/login" className={styles.Login}>Login</Link></li>
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/Packages">Packages</Link></li>
+                    <li><Link to="/Contact">Contact</Link></li> 
+                    <li><Link to="/Login" className={styles.Login}>Login</Link></li>
                 </ul>
             </div>
         </Card>
