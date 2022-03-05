@@ -7,13 +7,16 @@ import PriceHeading from '../components/headingPrice/PriceHeading';
 import Navbar from '../components/navbar/Navbar';
 import ProductList from '../components/product/ProductList';
 import Table from '../components/table/Table';
-
+import { Routes, Route } from "react-router-dom";
 
 
 
 const Home = (props) => {
     return (
-        <React.Fragment>
+       <React.Fragment>
+          <Routes>
+             <Route/>
+          </Routes>
            <section>
               <Navbar />
            </section>
